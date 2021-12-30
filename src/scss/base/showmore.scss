@@ -1,0 +1,22 @@
+[data-showmore] {
+}
+[data-showmore-content] {
+   opacity: 0;
+   transition: all 0.3s ease 0s;
+    ._showmore-active & {
+       opacity: 1;
+    }
+}
+[data-showmore-button] {
+	span {
+		&:last-child {
+			display: none;
+		}
+		._showmore-active & {
+			display: none;
+			&:last-child {
+				display: block;
+			}
+		}
+	}
+}

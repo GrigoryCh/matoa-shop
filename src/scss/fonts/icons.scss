@@ -1,0 +1,62 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-arrow-big-left:before {
+   content: "\e900";
+ }
+ ._icon-arrow-down:before {
+   content: "\e901";
+ }
+ ._icon-arrow-left:before {
+   content: "\e902";
+ }
+ ._icon-arrow-right:before {
+   content: "\e903";
+ }
+ ._icon-bin:before {
+   content: "\e904";
+ }
+ ._icon-cart:before {
+   content: "\e905";
+ }
+ ._icon-cart-small:before {
+   content: "\e906";
+ }
+ ._icon-checkout:before {
+   content: "\e907";
+ }
+ ._icon-confirm:before {
+   content: "\e908";
+ }
+ ._icon-favourite:before {
+   content: "\e909";
+ }
+ ._icon-minus:before {
+   content: "\e90a";
+ }
+ ._icon-payment:before {
+   content: "\e90b";
+ }
+ ._icon-plus:before {
+   content: "\e90c";
+ }
+ ._icon-search:before {
+   content: "\e90d";
+ }
+ ._icon-user:before {
+   content: "\e90e";
+ }
